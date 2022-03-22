@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Free Fall Band</title>
+<div class="routing">
+    <form action = "/" method="POST">
+        <a href="/about/">About</a>
+        <a href="/pictures/">Pictures</a>
+        <a href="/videos/">Videos</a>
+        <a href="/song_list/">Song List</a>
+        <a href="/calendar/">Calendar</a>
+    </form>
+</div>
+{% endblock %}
+
+{% block body %}
+<h1>Index</h1>
+{% endblock %}
